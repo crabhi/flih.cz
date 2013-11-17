@@ -216,6 +216,12 @@ li ol, li ul {
 	letter-spacing: 0;
     display: inline;
 }
+img.logo {
+	float: left;
+}
+#content img.logo {
+	clear: both;
+}
 #header img.logo {
     float: right;
 }

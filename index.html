@@ -2,8 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>F-Líh</title>
-<link rel="stylesheet" href="/media/styles.css" type="text/css" />
+<title>Filip Sedlák</title>
+<link rel="stylesheet" href="media/styles.css" type="text/css" />
+<link rel="stylesheet" href="lib/opentip.css" type="text/css" />
 <link rel="shortcut icon" href="/favicon.ico" />
 <!--
 sworm, a free CSS web template by spyka Webmaster (www.spyka.net)
@@ -16,35 +17,102 @@ License: Creative Commons Attribution
 <body>
 <div id="container">
 	<div id="header">
-    <table border="0" cellspacing="0">
-        <tr>
-            <td>
-                <h1><a href="/">Krab</a></h1> <h2> a. k. a. Flíh</h2>
-            </td><td>
-            <img class="logo" src="/media/images/nb-krab-ed-200.png"
-              width="200" height="139"> </td>
-        </tr>
-    </table>
-    	
-        
-        
-    </div>
-    <div id="nav">
-            	<ul>
-                        <li class="">
-                <a href="/vylety/">Výlety</a>
-            </li>
-                        <li class="">
-                <a href="/blog/">Blogue</a>
-            </li>
-                        <li class=" end">
-                <a href="/about.html">About me</a>
-            </li>
-                    </ul>
-            </div>
-    <div id="body">
-        <div id="content">
-                            <h1>Ahoj</h1>                    </div>
+		<table border="0" cellspacing="0">
+			<tr>
+				<td>
+					<h1><a href="/">Krab</a></h1> <h2> a. k. a. Filip Sedlák</h2>
+				</td><td>
+					<img class="logo" src="media/images/nb-krab-ed-200.png"
+					width="200" height="139"> </td>
+			</tr>
+		</table>
+
+
+
+	</div>
+	<div id="nav">
+		<ul>
+			<li class="">
+			<a href="/vylety/">Výlety</a>
+			</li>
+			<!--
+			<li class="">
+		<a href="/blog/">Blogue</a>
+	    </li>
+	    -->
+			<li class=" selected end">
+			<a href="index.html">About me</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<div id="content">
+			<h1>About me</h1>
+			<p><img src="media/images/sweet_choice200.jpg" alt="Fylyp foto" class="right">
+			My name is Filip Sedlák. You can contact me at
+			<a href="mailto:sedlakf@gmail.com">sedlakf@gmail.com</a>.</p>
+			<p>I'm currently studying cheminformatics at <a href="http://ich.vscht.cz">VŠCHT Praha - Laboratory of
+				Informatics</a>. My interest lies mostly at software design,
+			especially communicating with client about his needs. Thanks to my course of
+			study, I also understand some chemistry and I've passed four semestral courses
+			in the chemical lab.</p>
+			<p>At my <a href="http://web.vscht.cz/sedlakf/">school website</a>, you can find updates on
+			my school projects, including my Bs. thesis. However, the site is mostly in czech language.</p>
+			<p>Currently, I'm working on my master thesis - Mapping of Chemical Space. I'm
+			developing an application visualising <span class="info" 
+				title="large collections of chemical compounds (up to many thousands of molecules)">
+				"libraries"</span> of chemical molecules. This work is carried out for <a href="http://img.cas.cz">Institute
+				of Molecular Genetics</a></p>
+			<h2>My current work</h2>
+			<img src="media/images/ijc-48.svg" class="logo" alt="XMR logo" width="64">
+			<h3>Instant JChem (2012 - Current)</h3>
+			<p>For <a href="http://www.chemaxon.com">ChemAxon</a>, contributing to a chemically inteligent tool for managing data.
+			Connects to existing databases at world's top pharmaceutial companies and allows to search, save, combine and upload
+			data. Also provides access to almost whole portfolio of cheminformatics functionality provided by ChemAxon.
+			</p>
+			<div class="clear"></div>
+			<h2>My previous work</h2>
+			<div class="clear"></div>
+			<img src="media/images/xmr.png" class="logo" alt="XMR logo" width="120">
+
+			<h3>XMR GUI (2011)</h3>
+			<p>Graphical user interface for <a href="http://www.vscht.cz/monolith/">XMR software</a>. That program performs a simulation of
+			catalytic converters&nbsp;<a href="#ref1" id="backref1">[1]</a>.
+			The GUI is made with <a href="http://code.google.com/webtoolkit/">GWT</a> to be able to run
+			simulations remotely on different servers without the need of client
+			installation. This is very good for quick introduction of new students to this
+			software's usage. I was a&nbsp;member of team of three developers under the excellent lead of <a href="http://cz.linkedin.com/pub/miroslav-simek/0/761/988">Míra Šimek</a>.</p>
+			<h3>Space cartographer (2010 - 2012)</h3>
+			<p>Development of dynamic web application for navigation across the chemical space. The chemical compounds can be put into a mutlidimensionary
+			space and reports from this space can give useful insights during drug discovery process. For more info, see 
+			<a href="http://prezi.com/5ug8xeotjhde/?utm_campaign=share&utm_medium=copy&rc=ex0share">the slides from thesis defense (in Czech)</a>.</p>
+			<p>The challenging part here was to integrate existing Python, Java and R code in a web application. Did you know the 
+			<a href="http://cdk.sourceforge.net">CDK</a>'s descriptor calculators are not at all thread safe and you can't interrupt the computation
+			if it takes too long?</p>
+			<p>This was my MSc thesis under the lead of assoc. prof. Dan Svozil (head of <a href="http://ich.vscht.cz">cheminformatics laboratory @ ICT</a>).
+			<div class="clear"></div>
+			<img src="media/images/knime_logo.jpg" class="logo" alt="KNIME logo">
+			<h3>Knime reporting for <a href="http://img.cas.cz">IMG</a> (2010)</h3>
+			<p>Before the <a href="http://www.knime.org">KNIME</a> reporting extension came out, we started
+			a project to create reports from the KNIME workflows. This got to a stage where several nodes were
+			developed which were able to produce an HTML page with data from the workflow.</p>
+			<p>However, since the beginning, KNIME was used in that lab mostly as an inerface to R scripts.
+			It did not gain much popularity among the scientists there, so it was replaced with combination
+			of Python and R.</p>
+			<h3>Structural analysis of DNA-protein interface (2010)</h3>
+			<p>As a BS thesis, I processed publicly available crystallography data to find statistically significant patterns in binding between DNA
+			and proteins, including H and water-mediated bonds.
+			</p>                    
+
+			<h4>References</h4>
+			<div id="ref1">
+				<a href="#backref1">[1]</a>
+				Jiri Jirat, Milan Kubicek, Milos Marek, <strong>Mathematical
+					modelling of catalytic monolithic reactors with storage of reaction components
+					on the catalyst surface</strong>, <em>Catalysis Today</em>, <em>Volume 53</em>, Issue 4, 12 November
+				<strong>1999</strong>, Pages 583-596, DOI:&nbsp;10.1016/S0920-5861(99)00146-7
+			</div>
+		</div>
        <!-- 
         <div class="sidebar">
             <ul>	
@@ -134,5 +202,6 @@ License: Creative Commons Attribution
          </div>
     </div>
 </div>
+<script src="lib/opentip-native.min.js"></script>
 </body>
 </html>
