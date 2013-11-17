@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>F-Líh</title>
+<link rel="stylesheet" href="/media/styles.css" type="text/css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<!--
+sworm, a free CSS web template by spyka Webmaster (www.spyka.net)
+
+Download: http://www.spyka.net/web-templates/sworm/
+
+License: Creative Commons Attribution
+//-->
+</head>
+<body>
+<div id="container">
+	<div id="header">
+    <table border="0" cellspacing="0">
+        <tr>
+            <td>
+                <h1><a href="/">Krab</a></h1> <h2> a. k. a. Flíh</h2>
+            </td><td>
+            <img class="logo" src="/media/images/nb-krab-ed-200.png"
+              width="200" height="139"> </td>
+        </tr>
+    </table>
+    	
+        
+        
+    </div>
+    <div id="nav">
+            	<ul>
+                        <li class="">
+                <a href="/vylety/">Výlety</a>
+            </li>
+                        <li class=" selected">
+                <a href="/blog/">Blogue</a>
+            </li>
+                        <li class=" end">
+                <a href="/about.html">About me</a>
+            </li>
+                    </ul>
+            </div>
+    <div id="body">
+        <div id="content">
+                            <article>
+
+<h1>Jak jsem se zkusil vrátit k Windows</h1>
+<p><div class="perex">Bylo nebylo, usadilo se ve mně podezření, že bych si mohl ušetřit mnoho starostí s počítačem pouhým přechodem na Windows. A jak to bylo dál?</div></p>
+<p>Běžně jedu na Ubuntu, nedávno jsem nainstaloval 11.04 s novým grafickým rozhraním, Unity. Docela často narazím na to, že něco není úplně dotažené do konce. Proto, aby mi fungovala wifi, jsem musel nainstalovat jinou aplikaci než standardní network-manager (wicd), applet sledující síťový provoz se občas zblázní a ukazuje kraviny a vadí mi taky další drobnosti. Není to nic zásadního, zvlášť když si uvědomuji, že ten software je zadarmo. Ale protože u počítače trávím dost času a mám koupené Windows (byly k notebooku), řekl jsem si, že se podívám, jak to chodí u sousedů.</p>
+<p>Zde je seznam mých běžných činností a programů, které k nim používám.</p>
+<ul>
+<li>čtení e-mailu a browsení po webu (Thunderbird, Firefox, Chrome(ium))</li>
+<li>upravování mnoha menších textových souborů (Vim, Eclipse)</li>
+<li>instalace sdílených knihoven, serverů a programů jen tak na rychlé vyzkoušení
+   (<a href="https://help.ubuntu.com/community/InstallingSoftware">apt-get</a>)</li>
+<li>hraní jednoduchých her (Babo Violent, Nethack)</li>
+<li>poslouchání hudby z notebookových chrchlátek, sledování filmů</li>
+<li>občas psaní nějakého dokumentu (<del>OpenOffice</del>LibreOffice, Lyx)</li>
+<li>Taky používám verzovací systém, většinou 
+   <a href="http://mercurial.selenic.com/">Mercurial</a>, ale taky 
+   <a href="http://git-scm.com/">Git</a>, když musím.</li>
+</ul>
+<p>Protože v podstatě vše z toho existuje nějakým způsobem i na Windows, začal jsem zjišťovat výhody a nevýhody.</p>
+<p>Co jsem čekal od Windows:</p>
+<ul>
+<li>lépe otestovaný systém i ostatní programy</li>
+<li>velice kvalitní programy, které neběží v Linuxu (Autodesk Maya, MS Office)</li>
+<li>lepší spolupráce s HW (Nvidia Optimus, čtečka otisků)</li>
+</ul>
+<p>Moje očekávání byla splněna. Neuvědomil jsem si ale, jak moc jsem už přizpůsobil 
+svůj styl práce Linuxu. Vyhovuje mi příkazová řádka. Ale taková, která si 
+pamatuje minulé příkazy, velice rychle v nich hledá a inteligentně doplňuje 
+možnosti ke skoro každému příkazu. Vyhovuje mi balíčkovací systém s poměrně dobře aktualizovaným úložištěm. Napsat "apt-get install balíček" je výrazně jednodušší a rychlejší, než hledat download, rozbalovat a proklikávat se instalátorem. Zvykl jsem si na tisíc drobností, které by mi chyběly.</p>
+<h2>Poučení z krizového vývoje</h2>
+<p>Nejvíc mi vadí asi systém instalací - chybí balíčkový systém nebo je za peníze. Taky není tak běžné dávat k dispozici zdrojové kódy, i u freewaru, ale to už je spíš ideologický problém. Do zdrojáků knihoven, které používám, lezu často, to mi pomáhá hodně. Kód hotových aplikací zkoumám leda ze zájmu.</p>
+<p>Windows vypadá velmi dobře použitelné, pokud člověk používá málo programů nebo je jednou nainstaluje a dost. Zajímavá je otázka bezpečnosti. Linuxu výrazně pomáhá to, že je jen na málo osobních počítačích (tzv. uživatelská skupina v rámci statistické chyby).
+Zůstávám u Ubuntu, které kopíruje Mac jak může a je docela použitelné, aniž by člověk trávil moc čas hraním si se systémem. Přikládám výběr aplikací.</p>
+<h2><abbr title="Taky říkáme slepé střevo.">Appendix</abbr> A - Aplikace usnadňující život linuxáka na Windows</h2>
+<p>Spousta aplikací založených na Javě, Pythonu, R... Poběží i ve Windows. Musíte si ale sami nainstalovat runtime pro daný program. Pokud má aplikace jen CLI, je práce s ní výrazně méně komfortní.</p>
+<p><a href="http://xkcd.com/934/">Za chvilku to bude stejně všechno v browseru...</a></p>
+<h3>Npackd</h3>
+<p>Balíčkový instalátor. Má nějaké mouchy v UI, ale hlavně repository není tak kvalitní jako jsme zvyklí z velkých distribucí Linuxu. Skončil jsem s několika verzemi Pythonu a dvěma Javami, aniž bych to mohl v rámci balíčkovače změnit.</p>
+<h3>TortoiseHG a bráchové (TortoiseSVN, TortoiseGit)</h3>
+<p>Velice kvalitní, dobře použitelné (alespoň TortoiseHG, u ostatních nevím) GUI pro verzovací systém.</p>
+<h3>GVim</h3>
+<p>Ošklivý, ale funguje. Dá se nastavit minimálně hezčí písmo. Česká klávesnice se chová trochu jinak než v Linuxu, hlavně co se týká speciálních znaků. ~ je AltGr + 1, ^ je AltGr + 3, ale je to dead key, takže se musí zmáčnkout dvakrát nebo před písmenkem, které nemůže mít stříšku. Dobré je předělat Caps Lock na Escape, viz. <a href="http://msdn.microsoft.com/en-us/windows/hardware/gg463447">Microsoft Scan Code Mapper</a>. Následující dělá z Caps Locku další Esc a ze Scroll Locku Caps Lock.</p>
+<pre><code>REGEDIT4
+[HKEY_CURRENT_USER\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,3a,00,46,00,01,00,3a,00,00,00,00,00
+</code></pre>
+<h3>PSPad</h3>
+<p>Můj oblíbený editor na Windows. Poslední verze je ale přes dva roky stará.</p>
+<h3>Windows PowerShell</h3>
+<p>Vypadá to použitelně, dokonce tam je less, ls, man a další, ale zatím jsem se s tím nesžil. Chybí obdoba bash-completion, takže doplňuje jen jména souborů a složek.</p>
+<h3>XAMPP</h3>
+<p>Zabalený Apache, MySQL, PHP a jako bonus Perl.</p>
+<h3>MINGW</h3>
+<p>Minimalistic GNU for Windows: gcc, bash, less a další kamarádi.</p>
+<h3>VLC</h3>
+<p>Běží ve Windows a nese si s sebou kodeky, se kterými je při používání Windows Media Playeru docela pakárna.</p>
+<h3>Winamp</h3>
+<p><a href="http://mp3skull.com/mp3/dj_mike_llama_llama_whippin_intro.html">DJ Mika Lama</a> umí.
+</article></p>                    </div>
+       <!-- 
+        <div class="sidebar">
+            <ul>	
+               <li>
+                    <h3>Navigate</h3>
+                    <ul class="blocklist">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="examples.html">Examples</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Solutions</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <h3>About</h3>
+                    <ul>
+                        <li>
+                        	<p style="margin: 0;">Aenean nec massa a tortor auctor sodales sed a dolor. Duis vitae lorem sem. Proin at velit vel arcu pretium luctus.</p>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                	<h3>Search</h3>
+                    <ul>
+                    	<li>
+                            <form method="get" class="searchform" action="http://wpdemo.justfreetemplates.com/" >
+                                <p>
+                                    <input type="text" size="12" value="" name="s" class="s" />
+                                    <input type="submit" class="searchsubmit formbutton" value="Search" />
+                                </p>
+                            </form>	
+						</li>
+					</ul>
+                </li>
+                
+                <li>
+                    <h3>Sponsors</h3>
+                    <ul>
+                        <li><a href="http://www.themeforest.net/?ref=spykawg" title="premium templates"><strong>ThemeForest</strong></a> - premium HTML templates, WordPress themes and PHP scripts</li>
+                        <li><a href="http://www.dreamhost.com/r.cgi?259541" title="web hosting"><strong>Web hosting</strong></a> - 50 dollars off when you use promocode <strong>awesome50</strong></li>
+                        <li><a href="http://www.4templates.com/?aff=spykawg" title="4templates"><strong>4templates</strong></a> - brilliant premium templates</li>
+                    </ul>
+                </li>
+                
+            </ul> 
+        </div>
+        -->
+    	<div class="clear"></div>
+    </div>
+    <div id="footer">
+            <!--
+        <div class="footer-content">
+            <ul>
+            	<li><h4>Proin accumsan</h4></li>
+                <li><a href="#">Rutrum nulla a ultrices</a></li>
+                <li><a href="#">Blandit elementum</a></li>
+                <li><a href="#">Proin placerat accumsan</a></li>
+                <li><a href="#">Morbi hendrerit libero </a></li>
+                <li><a href="#">Curabitur sit amet tellus</a></li>
+            </ul>
+            
+            <ul>
+            	<li><h4>Condimentum</h4></li>
+                <li><a href="#">Curabitur sit amet tellus</a></li>
+                <li><a href="#">Morbi hendrerit libero </a></li>
+                <li><a href="#">Proin placerat accumsan</a></li>
+                <li><a href="#">Rutrum nulla a ultrices</a></li>
+                <li><a href="#">Cras dictum</a></li>
+            </ul>
+            
+            <ul class="endfooter">
+            	<li><h4>Suspendisse</h4></li>
+                <li><a href="#">Morbi hendrerit libero </a></li>
+                <li><a href="#">Proin placerat accumsan</a></li>
+                <li><a href="#">Rutrum nulla a ultrices</a></li>
+                <li><a href="#">Curabitur sit amet tellus</a></li>
+                <li><a href="#">Donec in ligula nisl.</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+            --> 
+        <div class="footer-bottom">
+            <p>Design by <a href="http://www.spyka.net">Spyka</a>, modified by
+            Krab.</p>
+         </div>
+    </div>
+</div>
+</body>
+</html>
