@@ -471,3 +471,33 @@ img.logo {
     font-style: italic;
     color: #555;
 }
+#header .tagcloud {
+    float: right;
+    width: 180px;
+    margin-top: 16px;
+}
+.tagcloud span {
+    display: block;
+    float: left;
+    background: #FF6633;
+
+    margin: 0.2em;
+    padding: 0.2em 0.3em;
+
+    color: white;
+    opacity: 0.75;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    -webkit-box-shadow: 1px 1px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    1px 1px 0px rgba(50, 50, 50, 1);
+    box-shadow:         1px 1px 0px rgba(50, 50, 50, 1);
+
+    cursor: default;
+}
+.tagcloud span:hover {
+    opacity: 1;
+}
+
